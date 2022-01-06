@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#txttarefa{
+    width: 100%;
+    height: 42px;
+    margin: 0;
+    border: 1px solid black;
+    padding-left: 5px;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 1.5em;
+    border-radius: 2px;
+    font-family: Arial;
+}
+
+#btnadicionar{
+    font-size: 1.5em;
+    color: white;
+    border: none;
+    background-color: rgb(27, 206, 107);
+    padding: 7px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+header{
+    width: 100%;
+    display: flex;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+ul{
+    margin: 20px;
+    list-style: none;
+}
+
+#titulo{
+    background-color: #E6F2FC;
+    color: #3b90da;
+    font-weight: bold;
+    font-family: Arial;
+    padding: 5px;
+    font-size: 1.3em;
+}
+
+li{
+    font-size: 2em;
+    font-family: Arial;
+    padding: 5px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1478px;
+}
+
+li p{
+    word-wrap: break-word;
+    max-width: 1430px;
+}
+
+.btnremover{
+    color: white;
+    text-align: center;
+    line-height: 10px;
+    font-weight: bold;
+    background-color: red;
+    border: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+li:nth-last-child(2n){
+    background-color: #eeeeee;
+}
+

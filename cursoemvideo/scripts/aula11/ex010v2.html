@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Script JS</title>
+</head>
+<body>
+    <h1>Sistema de Nacionalidade</h1>
+    País em que você nasceu: <input type="text" name="txtpais" id="pais">
+    <input type="button" value="Enviar" onclick="enviar()">
+    <div id="res"></div>
+
+    <script>
+        function enviar(){
+            var res = document.getElementById('res')
+            var pais = document.getElementById('txtpais')
+            res.innerHTML = `<p>Morando em ${pais} pais:</p>`
+            if(pais == ''){
+                res.innerHTML = `<p>Você é <strong>Brasileiro</strong></p>`
+            }else{
+                res.innerHTML = '<p>Você é <strong>Estrangeiro</strong></p>'
+            }
+        }
+    </script>
+</body>
+</html>

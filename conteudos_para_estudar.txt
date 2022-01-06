@@ -1,0 +1,3 @@
+Conteudos JavaScript para estudar mais tarde:
+-Array
+-Function
